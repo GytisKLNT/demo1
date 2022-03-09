@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- Result Section -->
+
+      <section class="results">
+        <div class="infoContainer">
+          <div class="iconContainer red">
+            <div class="icon">
+              <img src="assets/money.svg" alt="money" />
+            </div>
+          </div>
+          <div class="info">
+            <span class="result">1500</span>
+            <h2 class="pavadinimas">Due Fees</h2>
+          </div>
+        </div>
+
+        <div class="infoContainer">
+          <div class="iconContainer green">
+            <div class="icon">
+              <img src="assets/pen.svg" alt="pen" />
+            </div>
+          </div>
+          <div class="info">
+            <span class="result">15</span>
+            <h2 class="pavadinimas">Upcoming Exams</h2>
+          </div>
+        </div>
+
+        <div class="infoContainer">
+          <div class="iconContainer blue">
+            <div class="icon">
+              <img src="assets/grad.svg" alt="graduate" />
+            </div>
+          </div>
+          <div class="info">
+            <span class="result">08</span>
+            <h2 class="pavadinimas">Result Published</h2>
+          </div>
+        </div>
+
+        <div class="infoContainer">
+          <div class="iconContainer lightblue">
+            <div class="icon">
+              <img src="assets/money.svg" alt="money" />
+            </div>
+          </div>
+          <div class="info">
+            <span class="result">10000</span>
+            <h2 class="pavadinimas">Total Expenses</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Notice Board -->
+
+      <section class="noticeBoard">
+        <div class="noticeHeading">
+          <h2>Notice Board</h2>
+        </div>
+        <div class="coments">
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+          <div class="post">
+            <time class="date" datetime="2017-05-16">16 May, 2017</time>
+            <div class="nameWhen">
+              <span class="username">Jenyfar Lopez</span>
+              <time class="when" datetime="20:00">6 min ago</time>
+            </div>
+            <div class="comment">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, ipsum!
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- All Expenses Table -->
+
+      <section class="allExTable">
+        <div class="navigation">
+          <h2 class="allExpense">All Expenses</h2>
+          <div class="searches">
+            <input
+              class="search"
+              type="search"
+              name="byId"
+              id="searchById"
+              placeholder="Search by ID..."
+            />
+            <input
+              class="search"
+              type="search"
+              name="byDate"
+              id="searchByDate"
+              placeholder="Search by Date..."
+            />
+            <button id="search">SEARCH</button>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <th>ID No</th>
+            <th>Expense Type ↕</th>
+            <th>Amount ↕</th>
+            <th>Status ↕</th>
+            <th>E-mail</th>
+            <th>Date ↕</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

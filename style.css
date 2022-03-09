@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(235, 235, 235);
+  padding: 1rem;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* Result Section */
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.infoContainer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-bottom: 10px;
+  width: calc(50% - 10px);
+}
+
+.iconContainer {
+  width: 30%;
+  display: grid;
+}
+
+.red {
+  background: linear-gradient(to left, #ec785e, #e65245);
+}
+
+.green {
+  background: linear-gradient(to left, #56ab2f, #a8e063);
+}
+
+.blue {
+  background: linear-gradient(to right, #7fb7f7, #276cdb);
+}
+
+.lightblue {
+  background: linear-gradient(to left, #2193b0, #6dd5ed);
+}
+
+.icon {
+  width: 3rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.result {
+  font-size: 2rem;
+}
+
+.pavadinimas {
+  font-size: 1rem;
+}
+
+/* notice Board */
+
+.noticeBoard {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+
+  margin: 20px auto;
+}
+
+.noticeHeading {
+  padding: 0.3rem;
+  border-bottom: 0.1rem solid rgb(223, 223, 223);
+}
+
+.coments {
+  padding: 0.5rem;
+  height: 400px;
+  overflow: scroll;
+}
+.post {
+  padding: 0.5rem;
+  line-height: 1.5rem;
+}
+
+.date,
+.when {
+  color: rgb(161, 161, 161);
+}
+
+.when {
+  font-size: 0.85rem;
+}
+
+.username {
+  color: rgb(134, 38, 224);
+}
+
+/* Table */
+
+.allExTable {
+  background-color: rgb(255, 255, 255);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.search {
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+#search {
+  background-color: #276cdb;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+table {
+  width: 100%;
+}
